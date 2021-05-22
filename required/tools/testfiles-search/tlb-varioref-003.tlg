@@ -60,7 +60,7 @@ Completed box being shipped out [1]
 .....\glue(\parfillskip) 0.0 plus 1.0fil
 .....\glue(\rightskip) 0.0
 ....\write3{\protect \BOOKMARK [1][-]{section.1}{\376\377\000A\000-\000h\000e\000\ETC.}
-....\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline \ETC.}
+....\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberlin\ETC.}
 ....\penalty 10000
 ....\glue 9.90276 plus 0.86108
 ....\write1{\newlabel{A}{{sect: 1}{\thepage }{A-head}{section.1}{}}}
@@ -1511,7 +1511,7 @@ Completed box being shipped out [4]
 .....\glue(\parfillskip) 0.0 plus 1.0fil
 .....\glue(\rightskip) 0.0
 ....\write3{\protect \BOOKMARK [1][-]{section.2}{\376\377\000B\000-\000h\000e\000\ETC.}
-....\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline \ETC.}
+....\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberlin\ETC.}
 ....\penalty 10000
 ....\glue 9.90276 plus 0.86108
 ....\write1{\newlabel{B}{{sect: 2}{\thepage }{B-head}{section.2}{}}}
