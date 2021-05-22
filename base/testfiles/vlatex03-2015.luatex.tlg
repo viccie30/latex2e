@@ -219,7 +219,7 @@ Completed box being shipped out [1]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline \ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberlin\ETC.}
 ...\penalty 10000
 ...\glue 9.90276 plus 0.86108
 ...\glue(\parskip) 0.0 plus 1.0
@@ -466,7 +466,7 @@ Completed box being shipped out [2]
 .........\glue(\rightskip) 0.0 plus 1.0fil
 ........\penalty -51
 ........\glue 10.0 plus 3.0 minus 5.0
-........\write1{\@writefile{lof}{\protect \contentsline {figure}{\protect \numberline \ETC.}
+........\write1{\@writefile{lof}{\protect \contentsline {figure}{\protect \numberline\ETC.}
 ........\glue 10.0
 ........\glue(\baselineskip) 1.65556
 ........\hbox(6.94444+1.94444)x167.5, glue set 25.7638fil, direction TLT
@@ -632,7 +632,7 @@ Completed box being shipped out [2]
 .........\glue(\rightskip) 0.0 plus 1.0fil
 ........\penalty -51
 ........\glue 10.0 plus 3.0 minus 5.0
-........\write1{\@writefile{lof}{\protect \contentsline {figure}{\protect \numberline \ETC.}
+........\write1{\@writefile{lof}{\protect \contentsline {figure}{\protect \numberline\ETC.}
 ........\glue 10.0
 ........\glue(\baselineskip) 1.65556
 ........\hbox(6.94444+1.94444)x167.5, glue set 31.81935fil, direction TLT
@@ -795,7 +795,7 @@ Completed box being shipped out [2]
 .........\glue(\rightskip) 0.0 plus 1.0fil
 ........\penalty -51
 ........\glue 10.0 plus 3.0 minus 5.0
-........\write1{\@writefile{lof}{\protect \contentsline {figure}{\protect \numberline \ETC.}
+........\write1{\@writefile{lof}{\protect \contentsline {figure}{\protect \numberline\ETC.}
 ........\glue 10.0
 ........\glue(\baselineskip) 1.65556
 ........\hbox(6.94444+1.94444)x167.5, glue set 21.01378fil, direction TLT
@@ -1007,7 +1007,7 @@ Completed box being shipped out [2]
 .........\glue(\rightskip) 0.0 plus 1.0fil
 ........\penalty -51
 ........\glue 10.0 plus 3.0 minus 5.0
-........\write1{\@writefile{lof}{\protect \contentsline {figure}{\protect \numberline \ETC.}
+........\write1{\@writefile{lof}{\protect \contentsline {figure}{\protect \numberline\ETC.}
 ........\glue 10.0
 ........\glue(\baselineskip) 1.65556
 ........\hbox(6.94444+1.94444)x167.5, glue set 15.8471fil, direction TLT

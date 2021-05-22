@@ -654,7 +654,8 @@
       \begingroup
        \let\thepage\relax
        #2%
-       \let\protect\@unexpandable@protect
+%       \let\protect\@unexpandable@protect
+       \def\protect##1{\noexpand\protect\detokenize{##1}}%
        \edef\reserved@a{\write#1{#3}}%
        \reserved@a
       \endgroup

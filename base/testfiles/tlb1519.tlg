@@ -45,7 +45,7 @@ Completed box being shipped out [2]
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
 ...\mark{{\protect \MakeUppercase  {1\hskip 1em\relax One}}{1.2\hskip 1em\relax \ETC.}
-...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \numberline \ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \number\ETC.}
 ...\penalty 10000
 ...\glue 6.45831 plus 0.86108
 ...\glue(\parskip) 0.0 plus 1.0
@@ -128,7 +128,7 @@ Completed box being shipped out [3]
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
 ...\mark{{\protect \MakeUppercase  {1\hskip 1em\relax One}}{1.3\hskip 1em\relax \ETC.}
-...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \numberline \ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \number\ETC.}
 ...\penalty 10000
 ...\glue 6.45831 plus 0.86108
 ...\glue(\parskip) 0.0 plus 1.0

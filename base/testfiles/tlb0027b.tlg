@@ -1095,7 +1095,7 @@ Completed box being shipped out [2]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline \ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberlin\ETC.}
 ...\penalty 10000
 ...\glue 11.88335 plus 1.03331
 ...\glue(\parskip) 0.0 plus 1.0
@@ -1124,7 +1124,7 @@ Completed box being shipped out [2]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \numberline \ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \number\ETC.}
 ...\penalty 10000
 ...\penalty 10000
 ...\glue 7.75 plus 1.03331
@@ -1161,7 +1161,7 @@ Completed box being shipped out [2]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {subsubsection}{\protect \numberline \ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {subsubsection}{\protect \num\ETC.}
 ...\penalty 10000
 ...\penalty 10000
 ...\glue 7.75 plus 1.03331
@@ -1198,7 +1198,7 @@ Completed box being shipped out [2]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {subsubsection}{\protect \numberline \ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {subsubsection}{\protect \num\ETC.}
 ...\penalty 10000
 ...\penalty 10000
 ...\glue 7.75 plus 1.03331
@@ -1228,7 +1228,7 @@ Completed box being shipped out [2]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \numberline \ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \number\ETC.}
 ...\penalty 10000
 ...\penalty 10000
 ...\glue 7.75 plus 1.03331
@@ -1251,7 +1251,7 @@ Completed box being shipped out [2]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline \ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberlin\ETC.}
 ...\penalty 10000
 ...\penalty 10000
 ...\glue 11.88335 plus 1.03331
@@ -1281,7 +1281,7 @@ Completed box being shipped out [2]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \numberline \ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \number\ETC.}
 ...\penalty 10000
 ...\penalty 10000
 ...\glue 7.75 plus 1.03331
@@ -1311,7 +1311,7 @@ Completed box being shipped out [2]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \numberline \ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \number\ETC.}
 ...\penalty 10000
 ...\penalty 10000
 ...\glue 7.75 plus 1.03331
@@ -1348,7 +1348,7 @@ Completed box being shipped out [2]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {subsubsection}{\protect \numberline \ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {subsubsection}{\protect \num\ETC.}
 ...\penalty 10000
 ...\penalty 10000
 ...\glue 7.75 plus 1.03331
@@ -1385,7 +1385,7 @@ Completed box being shipped out [2]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {subsubsection}{\protect \numberline \ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {subsubsection}{\protect \num\ETC.}
 ...\penalty 10000
 ...\penalty 10000
 ...\glue 7.75 plus 1.03331
@@ -1408,7 +1408,7 @@ Completed box being shipped out [2]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline \ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberlin\ETC.}
 ...\penalty 10000
 ...\penalty 10000
 ...\glue 11.88335 plus 1.03331

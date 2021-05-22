@@ -27,30 +27,30 @@ LaTeX Font Warning: Font shape `T1/cmr/m/scsl' undefined
 \upshape -> n (should be n)
 =========== Testing low-level \fontshape declarations ==========
 \fontshape{n} -> n (should be n)
-\fontshape{sc} -> sc (should be sc)
+\fontshape{sc} -> n (should be sc)
+\fontshape{it} -> sc (should be it after trying scit)
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 (Font)              using `T1/cmr/m/it' instead on input line ....
-\fontshape{it} -> it (should be it after trying scit)
-\fontshape{sl} -> sl (should be sl)
-\fontshape{n} -> n (should be n)
+\fontshape{sl} -> it (should be sl)
+\fontshape{n} -> sl (should be n)
 \fontshape{ulc} -> n (should be n)
 =========== Testing low-level \fontseries declarations ==========
-\fontseries{bx} -> bx (should be bx)
+\fontseries{bx} -> m (should be bx)
+\fontseries{l} -> bx (should be l after trying lx (even though l doesn't exist either - found later))
 LaTeX Font Warning: Font shape `T1/cmr/lx/n' undefined
 (Font)              using `T1/cmr/l/n' instead on input line ....
-\fontseries{l} -> l (should be l after trying lx (even though l doesn't exist either - found later))
 LaTeX Font Warning: Font shape `T1/cmr/l/n' undefined
 (Font)              using `T1/cmr/m/n' instead on input line ....
+\fontseries{c} -> l (should be l after trying lc)
 LaTeX Font Warning: Font shape `T1/cmr/lc/n' undefined
 (Font)              using `T1/cmr/l/n' instead on input line ....
-\fontseries{c} -> l (should be l after trying lc)
-\fontseries{m} -> m (should be m)
+\fontseries{m} -> l (should be m)
+\fontseries{c} -> m (should be m after trying c)
 LaTeX Font Warning: Font shape `T1/cmr/c/n' undefined
 (Font)              using `T1/cmr/m/n' instead on input line ....
-\fontseries{c} -> m (should be m after trying c)
-\fontseries{b} -> b (should be b)
-\fontseries{bx} -> bx (should be bx)
-\fontseries{foo} -> foo (should be foo even though it doesn't exist)
+\fontseries{b} -> m (should be b)
+\fontseries{bx} -> b (should be bx)
+\fontseries{foo} -> bx (should be foo even though it doesn't exist)
 LaTeX Font Warning: Font shape `T1/cmr/foo/n' undefined
 (Font)              using `T1/cmr/m/n' instead on input line ....
-\fontseries{m} -> m (should be m)
+\fontseries{m} -> foo (should be m)
