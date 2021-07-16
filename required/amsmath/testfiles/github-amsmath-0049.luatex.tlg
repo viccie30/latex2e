@@ -31,7 +31,7 @@ Completed box being shipped out [1]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberlin\ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {1}smash}{\thepage }{}\protected@file@percent }}
 ...\penalty 10000
 ...\glue 9.90276 plus 0.86108
 ...\glue(\parskip) 0.0 plus 1.0
@@ -237,7 +237,7 @@ Completed box being shipped out [1]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberlin\ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {2}phantom}{\thepage }{}\protected@file@percent }}
 ...\penalty 10000
 ...\glue 9.90276 plus 0.86108
 ...\glue(\parskip) 0.0 plus 1.0
@@ -406,7 +406,7 @@ Completed box being shipped out [1]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberlin\ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {3}hphantom}{\thepage }{}\protected@file@percent }}
 ...\penalty 10000
 ...\glue 9.90276 plus 0.86108
 ...\glue(\parskip) 0.0 plus 1.0
@@ -575,7 +575,7 @@ Completed box being shipped out [1]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberlin\ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {4}vphantom}{\thepage }{}\protected@file@percent }}
 ...\penalty 10000
 ...\glue 9.90276 plus 0.86108
 ...\glue(\parskip) 0.0 plus 1.0
@@ -737,7 +737,7 @@ Completed box being shipped out [1]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberlin\ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {5}big(}{\thepage }{}\protected@file@percent }}
 ...\penalty 10000
 ...\glue 9.90276 plus 0.86108
 ...\glue(\parskip) 0.0 plus 1.0
@@ -1051,7 +1051,7 @@ Completed box being shipped out [2]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberlin\ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {6}thinspace}{\thepage }{}\protected@file@percent }}
 ...\penalty 10000
 ...\glue 9.90276 plus 0.86108
 ...\glue(\parskip) 0.0 plus 1.0
@@ -1256,7 +1256,7 @@ Completed box being shipped out [2]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberlin\ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {7}negthinspace}{\thepage }{}\protected@file@percent }}
 ...\penalty 10000
 ...\glue 9.90276 plus 0.86108
 ...\glue(\parskip) 0.0 plus 1.0
@@ -1469,7 +1469,7 @@ Completed box being shipped out [2]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberlin\ETC.}
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {8}enspace and the like}{\thepage }{}\protected@file@percent }}
 ...\penalty 10000
 ...\glue 9.90276 plus 0.86108
 ...\glue(\parskip) 0.0 plus 1.0
