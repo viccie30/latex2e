@@ -86,11 +86,7 @@ Completed box being shipped out [1]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-<<<<<<< HEAD
-...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberlin\ETC.}
-=======
 ...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {1}Available out of the box, i.e., just using fontspec --- not quite right yet with TU}{\thepage }{}\protected@file@percent }}
->>>>>>> develop
 ...\penalty 10000
 ...\glue 9.913 plus 0.86198
 ...\glue(\parskip) 0.0 plus 1.0
@@ -1109,11 +1105,7 @@ Completed box being shipped out [2]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-<<<<<<< HEAD
-...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberlin\ETC.}
-=======
 ...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {2}Not known without textcomp}{\thepage }{}\protected@file@percent }}
->>>>>>> develop
 ...\penalty 10000
 ...\glue 9.913 plus 0.86198
 ...\glue(\parskip) 0.0 plus 1.0
@@ -1562,11 +1554,7 @@ Completed box being shipped out [3]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-<<<<<<< HEAD
-...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberlin\ETC.}
-=======
 ...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {3}Accents like \protect \dots  {} mostly unknown}{\thepage }{}\protected@file@percent }}
->>>>>>> develop
 ...\penalty 10000
 ...\glue 9.913 plus 0.86198
 ...\glue(\parskip) 0.0 plus 1.0
@@ -1902,11 +1890,7 @@ Completed box being shipped out [4]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-<<<<<<< HEAD
-...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberlin\ETC.}
-=======
 ...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {4}Except these too}{\thepage }{}\protected@file@percent }}
->>>>>>> develop
 ...\penalty 10000
 ...\glue 9.913 plus 0.86198
 ...\glue(\parskip) 0.0 plus 1.0
@@ -2013,11 +1997,7 @@ Completed box being shipped out [4]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-<<<<<<< HEAD
-...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberlin\ETC.}
-=======
 ...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline {5}And there is oldstylenums}{\thepage }{}\protected@file@percent }}
->>>>>>> develop
 ...\penalty 10000
 ...\glue 9.913 plus 0.86198
 ...\glue(\parskip) 0.0 plus 1.0
