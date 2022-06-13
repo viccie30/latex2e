@@ -1,0 +1,26 @@
+This is a generated file for the LaTeX2e validation system.
+Don't change this file in any respect.
+! LaTeX Error: Command \csname\endcsnameundefined.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+l. ......ndafter}\expandafter\test\csname\endcsname
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+> \csname\endcsname=\long macro:
+->A.
+<argument> \csname\endcsname
+l. ......ndafter}\expandafter\test\csname\endcsname
+> \csname\endcsname=\long macro:
+->B.
+<argument> \csname\endcsname
+l. ......ndafter}\expandafter\test\csname\endcsname
+> \csname\endcsname=\long macro:
+->A.
+<argument> \csname\endcsname
+l. ......ndafter}\expandafter\test\csname\endcsname
+> \end=\long macro:
+->B.
+\test ...onment {}{A}{B} \par \show #1 \show \end 
+                                                  \par 
+l. ......ndafter}\expandafter\test\csname\endcsname

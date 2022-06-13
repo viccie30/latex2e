@@ -1,0 +1,25 @@
+
+\input{test2e}
+
+\def\test#1{%
+
+% error + defines \csname\endcsname=\long macro:->A.
+\renewcommand#1{A}
+\show#1
+
+% error
+\newcommand#1{B}
+\show#1
+
+\let#1\UNDEFINED
+
+\newenvironment{}{A}{B}
+
+\show#1
+\show\end
+
+}
+
+\START
+{\expandafter}\expandafter\test\csname\endcsname
+\END
