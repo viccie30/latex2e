@@ -33,7 +33,7 @@
 %<*driver>
 % \fi
 \ProvidesFile{ltexpl.dtx}
-             [2022/02/28 v1.3f LaTeX Kernel (expl3-dependent code)]
+             [2022/06/12 v1.3g LaTeX Kernel (expl3-dependent code)]
 % \iffalse
 \documentclass{ltxdoc}
 \GetFileInfo{ltexpl.dtx}
@@ -371,6 +371,12 @@
 \cs_gset_eq:NN \@expl@char@generate@@nn \char_generate:nn
 %    \end{macrocode}
 %
+% \changes{v1.3g}{2022/06/12}
+%         {Add \cs{@expl@cs@if@free@@NTF} for \cs{@ifdefinable} (gh/778)}
+%    \begin{macrocode}
+\cs_gset_eq:NN \@expl@cs@if@free@@NTF \cs_if_free:NTF
+%    \end{macrocode}
+%
 %    \begin{macrocode}
 \ExplSyntaxOff
 %    \end{macrocode}
@@ -390,6 +396,7 @@
 %<latexrelease>\let \@expl@cs@argument@spec@@N \@undefined
 %<latexrelease>\let \@expl@cs@replacement@spec@@N \@undefined
 %<latexrelease>\let \@expl@str@map@function@@NN \@undefined
+%<latexrelease>% \let \@expl@cs@if@free@@NTF \@undefined
 %<latexrelease>\EndIncludeInRelease
 %</2ekernel|latexrelease>
 %    \end{macrocode}

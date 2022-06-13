@@ -32,7 +32,7 @@
 %<*driver>
 % \fi
 \ProvidesFile{ltdefns.dtx}
-             [2022/05/13 v1.5q LaTeX Kernel (definition commands)]
+             [2022/06/12 v1.5r LaTeX Kernel (definition commands)]
 % \iffalse
 \documentclass{ltxdoc}
 \GetFileInfo{ltdefns.dtx}
@@ -671,15 +671,20 @@
 % \changes{v1.0n}{1994/05/10}{Removed braces around \cs{@ifundefined}
 %    argument.  ASAJ.}
 % \changes{v1.0s}{1994/05/13}{Coded more efficiently, thanks to FMi.}
+% \changes{v1.5r}{2022/06/12}{Fix result of \cs{@ifdefinable} on the empty cs (gh/778).}
 %
 %  \begin{macro}{\@ifdefinable}
 %  \begin{macro}{\@@ifdefinable}
 %  \begin{macro}{\@rc@ifdefinable}
 %    Test if user is allowed to define a command.
 %    \begin{macrocode}
+%</2ekernel>
+%<*2ekernel|latexrelease>
+%<latexrelease>\IncludeInRelease{2022/11/01}{\@ifdefinable}
+%<latexrelease>                 {Fix \cs{@ifdefinable} on the empty cs}%
 \long\def\@ifdefinable #1#2{%
       \edef\reserved@a{\expandafter\@gobble\string #1}%
-     \@ifundefined\reserved@a
+     \@expl@cs@if@free@@NTF #1%
          {\edef\reserved@b{\expandafter\@carcube \reserved@a xxx\@nil}%
           \ifx \reserved@b\@qend \@notdefinable\else
             \ifx \reserved@a\@qrelax \@notdefinable\else
@@ -687,7 +692,25 @@
             \fi
           \fi}%
          \@notdefinable}
+%<latexrelease>\EndIncludeInRelease
+%<latexrelease>
+%<latexrelease>\IncludeInRelease{0000/00/00}{\@ifdefinable}
+%<latexrelease>                 {Fix \cs{@ifdefinable} on the empty cs}%
+%<latexrelease>\long\def\@ifdefinable #1#2{%
+%<latexrelease>      \edef\reserved@a{\expandafter\@gobble\string #1}%
+%<latexrelease>     \@ifundefined\reserved@a
+%<latexrelease>         {\edef\reserved@b{\expandafter\@carcube \reserved@a xxx\@nil}%
+%<latexrelease>          \ifx \reserved@b\@qend \@notdefinable\else
+%<latexrelease>            \ifx \reserved@a\@qrelax \@notdefinable\else
+%<latexrelease>              #2%
+%<latexrelease>            \fi
+%<latexrelease>          \fi}%
+%<latexrelease>         \@notdefinable}
+%<latexrelease>\EndIncludeInRelease
+%</2ekernel|latexrelease>
+%<*2ekernel>
 %    \end{macrocode}
+%
 %    Saved definition of |\@ifdefinable|.
 %    \begin{macrocode}
 \let\@@ifdefinable\@ifdefinable

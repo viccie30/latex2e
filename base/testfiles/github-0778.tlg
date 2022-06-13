@@ -11,12 +11,30 @@ If that doesn't work, type  X <return>  to quit.
 ->A.
 <argument> \csname\endcsname
 l. ......ndafter}\expandafter\test\csname\endcsname
-> \csname\endcsname=\long macro:
-->B.
-<argument> \csname\endcsname
+! LaTeX Error: Command \csname\endcsnamealready defined.
+               Or name \end... illegal, see p.192 of the manual.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
 l. ......ndafter}\expandafter\test\csname\endcsname
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 > \csname\endcsname=\long macro:
 ->A.
+<argument> \csname\endcsname
+l. ......ndafter}\expandafter\test\csname\endcsname
+! LaTeX Error: Command \csname\endcsnamealready defined.
+               Or name \end... illegal, see p.192 of the manual.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+l. ......ndafter}\expandafter\test\csname\endcsname
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+> \csname\endcsname=macro:
+->\romannumeral \ifx \protect \@typeset@protect \expandafter \expandafter \expandafter \expandafter \expandafter \expandafter \expandafter \z@ \else \expandafter \z@ \expandafter \protect \fi \end  .
 <argument> \csname\endcsname
 l. ......ndafter}\expandafter\test\csname\endcsname
 > \end=\long macro:
