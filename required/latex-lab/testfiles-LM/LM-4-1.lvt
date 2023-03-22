@@ -1,0 +1,73 @@
+
+\DocumentMetadata{
+  testphase={phase-III
+%    ,math
+  }
+  ,uncompress
+%  ,pdfversion=2.0
+  ,debug={
+%  para,
+  log=vv}
+}
+
+\input{regression-test}
+
+\documentclass{report}
+
+\usepackage{kantlipsum}
+
+
+\begin{document}
+
+\START
+
+\title{Testing the document elements from the \LaTeX{} Manual -- 4.1}
+\author{Frank Mittelbach}
+\date{2023-03-16}
+
+\maketitle
+
+\section*{Issues/ToDos}
+
+\begin{itemize}
+\item
+  The MC of ``Contents'' heading show \verb=\@markboth= stuff. This is
+  really a heading implementation issue
+\item
+  Looks like the starred headings replace Lbl by NonStruct to simplify
+  coding, but that should probably cleaned up and dropped.
+\item
+  Activating ``math'' tagging (as this test document does), results in
+  the Author name tagged as a formula in the middle of some of the  TOCI lines
+  in the TOC, looks like the TOC coding and the math coding conflict
+  with each other!
+
+  The problem goes away, if the \texttt{math} is taken out, perhaps it is due
+  to the dotted leaders.
+\end{itemize}
+
+\setcounter{tocdepth}{3}
+
+\tableofcontents
+
+
+\setcounter{chapter}{4}
+\setcounter{section}{0}
+
+\section{The Table of Contents}
+
+\subsection{A subsection}
+\subsection{Another subsection}
+\subsubsection{A subsubsection}
+
+\subsection{A subsection with a lot of text in the title --- \kant*[1][2]}
+
+\newpage
+
+\section{A final section}
+
+\kant[1][3]
+
+\newpage
+\OMIT
+\end{document}

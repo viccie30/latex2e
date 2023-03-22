@@ -1,0 +1,51 @@
+
+\DocumentMetadata{
+  testphase={phase-III
+            ,math
+            }
+  ,uncompress
+%  ,pdfversion=2.0
+  ,debug={
+%  para,
+  log=vv}
+}
+
+\input{regression-test}
+
+\documentclass{letter}
+
+\usepackage{kantlipsum}
+
+
+\begin{document}
+
+\START
+
+\address{Testing the document elements\\
+         from the \LaTeX{} Manual -- 5.3}
+\signature{Frank Mittelbach}
+
+\renewcommand\today{Some day before Corona}
+
+
+\begin{letter}{Dr. Rowley\\
+               Somewhere \\
+	       Earth}
+
+
+\opening{Dear Chris,}
+
+A few issues and ToDos with respect to the letter class:
+\begin{itemize}
+\item
+\end{itemize}
+
+\closing{Best regards,}
+
+\cc{Ulrike \\ David}
+\encl{The test output}
+
+\end{letter}
+
+\OMIT
+\end{document}

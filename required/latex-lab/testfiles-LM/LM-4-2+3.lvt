@@ -1,0 +1,67 @@
+
+\DocumentMetadata{
+  testphase={phase-III
+%    ,math
+  }
+  ,uncompress
+%  ,pdfversion=2.0
+  ,debug={
+%  para,
+  log=vv}
+}
+
+\input{regression-test}
+
+\documentclass{report}
+
+\usepackage{kantlipsum}
+
+
+\begin{document}
+
+\START
+
+\title{Testing the document elements from the \LaTeX{} Manual -- 4.2 \& 4.3}
+\author{Frank Mittelbach}
+\date{2023-03-17}
+
+\maketitle
+
+\section*{Issues/ToDos}
+
+\begin{itemize}
+\item
+\end{itemize}
+
+
+
+\setcounter{chapter}{4}
+\setcounter{section}{1}
+
+\section{Cross-References}
+
+\emph{--- make examples ---}
+
+
+\section{Bibliography and Citation}
+
+
+\emph{--- make examples ---}
+
+
+
+\subsection{Using \BibTeX{}}
+
+
+\emph{--- make examples ---}
+
+
+
+\subsection{Doing It Yourself}
+
+
+\emph{--- make examples ---}
+
+\newpage
+\OMIT
+\end{document}

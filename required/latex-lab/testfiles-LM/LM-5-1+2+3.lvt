@@ -1,0 +1,65 @@
+
+\DocumentMetadata{
+  testphase={phase-III
+%    ,math
+  }
+  ,uncompress
+%  ,pdfversion=2.0
+  ,debug={
+%  para,
+  log=vv}
+}
+
+\input{regression-test}
+
+\documentclass{report}
+
+\usepackage{kantlipsum}
+
+
+\begin{document}
+
+\START
+
+\title{Testing the document elements from the \LaTeX{} Manual -- 4.2 \& 4.3}
+\author{Frank Mittelbach}
+\date{2023-03-17}
+
+\maketitle
+
+\section*{Issues/ToDos}
+
+\begin{itemize}
+\item
+\end{itemize}
+
+
+
+\setcounter{chapter}{4}
+\setcounter{section}{4}
+
+\section{Making an Index or Glossary}
+
+
+\subsection{Compiling the Entries}
+
+
+\emph{--- make examples ---}
+
+
+
+\subsection{Producing an Index or Glossary by Yourself}
+
+
+\emph{--- make examples ---}
+
+
+
+\subsection{Doing It Yourself}
+
+
+\emph{--- make examples ---}
+
+\newpage
+\OMIT
+\end{document}
