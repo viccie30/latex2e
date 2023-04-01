@@ -9,4 +9,6 @@ l3build save -cconfig-LM-tagging \
 	LM-4-2+3 \
 	LM-4-5 \
 	LM-5-1+2 \
-	LM-5-3
+	LM-5-3 \
+	LM-6-1a \
+	LM-6-1b

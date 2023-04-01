@@ -1,0 +1,52 @@
+
+\DocumentMetadata{
+  testphase={phase-III
+            ,math
+            }
+  ,uncompress
+%  ,pdfversion=2.0
+  ,debug={
+%  para,
+  log=vv}
+}
+
+\input{regression-test}
+
+\documentclass[fleqn]{article}
+
+\usepackage{kantlipsum}
+
+
+\begin{document}
+
+\START
+
+\title{Testing the document elements from the \LaTeX{} Manual -- 6.1(b)}
+\author{Frank Mittelbach}
+\date{2023-04-01}
+
+\maketitle
+
+\begin{abstract}
+ \kant[1][1]
+\end{abstract}
+
+\section*{Issues/ToDos}
+
+\begin{itemize}
+\item
+\end{itemize}
+
+
+\setcounter{chapter}{6}
+\setcounter{section}{0}
+
+\section{Document-Class Options}
+
+This is testing the \texttt{fleqn} option.
+
+\emph{--- make examples ---}
+
+
+\OMIT
+\end{document}
