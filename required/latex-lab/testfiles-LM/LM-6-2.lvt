@@ -1,0 +1,81 @@
+
+\DocumentMetadata{
+  testphase={phase-III
+            ,math
+            }
+  ,uncompress
+%  ,pdfversion=2.0
+  ,debug={
+%  para,
+  log=vv}
+}
+
+\input{regression-test}
+
+\documentclass[twoside]{report}
+
+\usepackage{kantlipsum}
+
+\newcommand\cs[1]{\texttt{\textbackslash#1}}
+
+\begin{document}
+
+\START
+
+\title{Testing the document elements from the \LaTeX{} Manual -- 6.2}
+\author{Frank Mittelbach}
+\date{2023-04-01}
+
+\maketitle
+
+
+\section*{Issues/ToDos}
+
+\begin{itemize}
+\item
+  What happened to the running headers on page 3--4?
+\end{itemize}
+
+
+\setcounter{chapter}{6}
+\setcounter{section}{1}
+
+\section{Page Styles}
+
+\pagestyle{plain}
+
+This is testing different page styles, this page uses \text{plain}.
+
+\newpage
+
+\pagestyle{headings}
+
+Here we have two pages using \texttt{headings}.
+
+\newpage
+
+Here is the second page (we use class option \texttt{twoside}).
+
+\newpage
+
+\pagestyle{myheadings}
+
+And here we use \texttt{myheadings} and \cs{markboth}.
+
+\markboth{foo left}{foo right}
+
+\newpage
+
+And on this page we use  \cs{markright}.
+
+\markright{bar}
+
+\newpage
+
+We should also test the new mark mechanism!
+
+\emph{--- make examples ---}
+
+
+\OMIT
+\end{document}
