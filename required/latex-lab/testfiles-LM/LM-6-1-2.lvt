@@ -22,35 +22,44 @@
 
 \START
 
-\title{Testing the document elements from the \LaTeX{} Manual -- 6.2}
+\title{Testing the document elements from the \LaTeX{} Manual -- 6.1.2}
 \author{Frank Mittelbach}
-\date{2023-04-01}
+\date{2023-04-02}
 
 \maketitle
+
+\pagestyle{headings}
+
+\setcounter{chapter}{5}
+
+\chapter{Designing it yourself}
 
 
 \section*{Issues/ToDos}
 
 \begin{itemize}
 \item
-  What happened to the running headers on page 3--4?
+  We should also make tests for the new mark mechanism (even if that isn't part of Lamport)!
 \end{itemize}
 
 
-\setcounter{chapter}{6}
-\setcounter{section}{1}
 
-\section{Page Styles}
+\section{document and Page Styles}
 
-\pagestyle{plain}
+\setcounter{subsection}{1}  % match the section number in LM
+
+\subsection{Page Styles}
+
+\thispagestyle{plain}
 
 This is testing different page styles, this page uses \text{plain}.
 
 \newpage
 
-\pagestyle{headings}
+% \pagestyle{headings}  set above
 
 Here we have two pages using \texttt{headings}.
+
 
 \newpage
 
