@@ -271,3 +271,7 @@ function typeset(file,dir)
   end
   return tex(file,dir)
 end
+
+if os_type ~= 'windows' then
+  os_diffexe = 'diff -Nu --strip-trailing-cr'
+end
