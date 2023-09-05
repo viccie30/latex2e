@@ -6,6 +6,10 @@ to completeness or accuracy and it contains some references to files that are
 not part of the distribution.
 ================================================================================
 
+2023-11-12 Joseph Wright  <Joseph.Wright@latex-project.org>
+	* lttemplates.dtx
+	New file to replace loading xtemplate
+
 2023-11-09 Yukai Chou  <muzimuzhi@gmail.com>
 	* clsguide-historic.tex, usrguide.tex:
 	Replace quotation with quote envs for zero para indent
