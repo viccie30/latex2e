@@ -1,0 +1,117 @@
+% \iffalse meta-comment
+%
+%% File: latex-lab-tagging-support.dtx
+%
+% Copyright (C) 2022-2023 The LaTeX Project
+%
+% It may be distributed and/or modified under the conditions of the
+% LaTeX Project Public License (LPPL), either version 1.3c of this
+% license or (at your option) any later version.  The latest version
+% of this license is in the file
+%
+%    https://www.latex-project.org/lppl.txt
+%
+%
+% The development version of the bundle can be found below
+%
+%    https://github.com/latex3/latex2e/required/latex-lab
+%
+% for those people who are interested or want to report an issue.
+%
+%
+\def\ltlabtaggingdate{2023-10-13}
+\def\ltlabtaggingversion{0.5a}
+%
+%<*driver>
+\documentclass{l3doc}
+\EnableCrossrefs
+\CodelineIndex 
+
+\usepackage{todonotes}
+
+\begin{document}
+  \DocInput{latex-lab-tagging-support.dtx}
+\end{document}
+%</driver>
+%
+% \fi
+%
+%
+% \title{The \texttt{latex-lab-math} code\thanks{}}
+% \author{Ulrike Fischer \LaTeX{} Project}
+% \date{v\ltlabtaggingversion\ \ltlabtaggingdate}
+% 
+% \maketitle
+%
+% \newcommand\NEW[1]{\marginpar{\mbox{}\hfill\fbox{New: #1}}}
+% \providecommand\class[1]{\texttt{#1.cls}}
+% \providecommand\pkg[1]{\texttt{#1}}
+% \providecommand\hook[1]{\texttt{#1}}
+%
+% ^^A \car {...} for marginal comments
+% ^^A \car*{...} for longer inline comments
+%
+% \NewDocumentCommand\car{sO{}m}
+%   {\IfBooleanTF{#1}{\todo[inline,color=blue!10,#2]{#3}}^^A
+%                    {\todo[color=blue!10,#2]{#3}}}
+%
+% \NewDocumentCommand\fmi{sO{}m}
+%   {\IfBooleanTF{#1}{\todo[inline,#2]{#3}}^^A
+%                    {\todo[#2]{#3}}}
+%
+%
+%
+% \begin{abstract}
+%  This is a small module which collects tagging commands that are probably useful
+%  for (or used in) more than one latex-lab module to avoid repetitions and small differences.    
+% \end{abstract}
+%
+% \tableofcontents
+%
+% \section{Introduction}
+% \section{The Implementation}
+%
+%    \begin{macrocode}
+%<@@=kernel>
+%    \end{macrocode}
+%
+%    \begin{macrocode}
+%<*latex-lab>
+%    \end{macrocode}
+%
+% \subsection{File declaration}
+%
+%    \begin{macrocode}
+\ProvidesExplPackage{latex-lab-tagging-support.ltx}
+             {\ltlabtaggingdate}
+             {\ltlabtaggingversion}
+             { helper tagging commands}
+%    \end{macrocode}
+% \subsection{Generic tagging debug messages}
+% Copy and adapt from block?
+% 
+% 
+% \subsection{Manual para ends}
+%  This closes a P-MC and a P-structure
+%  Use in block, in \cs{__block_beginpar_hmode:N}
+%  and in math, as \cs{@kernel@close@P}
+%    \begin{macrocode}
+\cs_new_protected:Npn \@@_tag_close_P: {
+   \tag_if_active:T
+    {
+     \tag_mc_end: %end P-chunk
+     % \@@_debug_typeout:n{increment~ /P \on@line } %later
+        \int_gincr:N \g__tag_para_end_int
+        \__tag_check_para_end_show:nn {red}{}
+        \tag_struct_end:
+    }    
+}
+  
+%    \end{macrocode}
+%
+%    \begin{macrocode}
+%</latex-lab>
+%    \end{macrocode}
+% \Finale
+%
+% 
