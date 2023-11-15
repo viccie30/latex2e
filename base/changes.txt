@@ -6,6 +6,12 @@ to completeness or accuracy and it contains some references to files that are
 not part of the distribution.
 ================================================================================
 
+2023-11-15  Joseph Wright  <Joseph.Wright@latex-project.org>
+	* ltfiles.dtx (subsection{Listing files}):
+	Extend \listfiles to optionally include file sizes and hashes
+	* usrguide.tex
+	Re-introduce \listfiles (extended) description
+
 2023-11-09 Yukai Chou  <muzimuzhi@gmail.com>
 	* clsguide-historic.tex, usrguide.tex:
 	Replace quotation with quote envs for zero para indent
